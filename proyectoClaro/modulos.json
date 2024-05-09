@@ -5,28 +5,28 @@
             "Direccion": "cra 28",
             "Contacto": 3108051399,
             "Correo electronico": "gabygr1718@gmail.com",
-            "Categoría": "1"
+            "Categoría": "cliene nuevo"
         },
         {
             "Nombre": "Antonio",
             "Direccion": "cra 13",
             "Contacto": 3113459876,
             "Correo electronico": "antonio12@gmail.com",
-            "Categoría": "2"
+            "Categoría": "cliente regular"
         },
         {
             "Nombre": "Juan",
             "Direccion": "calle 10",
             "Contacto": 3126578970,
             "Correo electronico": "juanito03@gmail.com",
-            "Categoría": "3"
+            "Categoría": "cliente leal"
         },
         {
             "Nombre": "Natalia",
             "Direccion": "calle 20",
             "Contacto": 3013567896,
             "Correo electronico": "nataliani17@gmail.com",
-            "Categoría": "3"
+            "Categoría": "cliente leal"
         }
     ],
     "Servicios": [
