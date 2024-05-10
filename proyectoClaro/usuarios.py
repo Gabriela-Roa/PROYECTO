@@ -52,13 +52,11 @@ def servicios_y_promociones_personalizadas(datos):
 def salir(datos):
     datos = dict(datos)
     opc = 5
-    if opc == 5:
-        print("Has salido de VerSe")
     try:
-        opc = 1
-        opc = int(input("Ingrese la opción: "))
+         if opc == 5:
+            print("Has salido de VerSe")
     except Exception:
-        opc = 0
+        opc == 0
         opc = int(input("Ingrese una opción valida: "))
     return datos
 

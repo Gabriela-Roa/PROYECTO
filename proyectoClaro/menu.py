@@ -11,15 +11,19 @@ def Menú():
     
 def usuarios():
     print("\n-------------------------------------------------")
+    print("\nUsuarios    ")
     print("1. Actualizar Perfil")
     print("2. Crear un nuevo perfil")
     print("3. Eliminar Perfil")
     print("4. Servicios y promociones personalizadas")
     print("5. Menú")
     print("\n-------------------------------------------------")
+   
+    
 
 def Gestion_de_servicios():
     print("\n-------------------------------------------------")
+    print("\nGestion de servicios")
     print("1. Agregar servicio")
     print("2. Modificar servicio")
     print("3. Eliminar servicio")
@@ -29,30 +33,32 @@ def Gestion_de_servicios():
     
 def Reportes():
     print("\n-------------------------------------------------")
+    print("\nReporte")
     print("1. Informes")
-    print("2. Servicios populares")
-    print("3. Usuarios que han adquirido los servicios")
-    print("4. Menú")
+    print("2. Servicios populares") # esto puede ir en informes
+    print("3. Usuarios que han adquirido los servicios") # esto puede ir en informes 
+    print("5. Menú")
     print("\n-------------------------------------------------")
     
 def ventas():
     print("\n-------------------------------------------------")
+    print("\nVentas")
     print("1. Registro de productos y servicios")
     print("2. Registro de ventas")
     print("3. Menú")
     print("5. salir")
     print("\n-------------------------------------------------")
-
+    
 def pedir_opcion():
-    opc = 0
-    try:
-        opc = int(input("Ingrese su opción: "))
-        print("\n-------------------------------------------------")
-        return opc
-    except Exception:
-        print("Valor inválido")
-        print("\n-------------------------------------------------")
-        return -1
+    while True:
+        try:
+            opc = int(input("Ingrese su opción: "))
+            print("\n-------------------------------------------------")
+            return opc
+        except:
+            print("Valor inválido")
+            print("\n-------------------------------------------------")
+            return -1
     
 
     
