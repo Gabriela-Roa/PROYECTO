@@ -10,6 +10,3 @@ while True:
     opc = pedir_opcion
     if opc == 1:
         
-    
-    
-    

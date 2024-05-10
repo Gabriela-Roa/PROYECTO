@@ -1,6 +1,6 @@
 def Menú():
     print("\n-------------------------------------------------")
-    print("Bienvenidos a claro")
+    print("¡¡¡BIENVENIDOS A CLARO!!!")
     print("\nSeleccione la opción que necesita")
     print("1. Usuarios")    
     print("2. Gestión de Servicios")    
@@ -13,7 +13,7 @@ def usuarios():
     print("\n-------------------------------------------------")
     print("1. Actualizar Perfil")
     print("2. Crear un nuevo perfil")
-    print("3. Elimir Perfil")
+    print("3. Eliminar Perfil")
     print("4. Servicios y promociones personalizadas")
     print("5. Menú")
     print("\n-------------------------------------------------")

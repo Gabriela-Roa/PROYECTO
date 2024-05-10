@@ -1,4 +1,4 @@
-def registrar_usuario(datos):
+def crear_un_nuevo_perfil(datos):
     datos = dict(datos)
     usuario={}
     usuario["Nombre"]=input("Ingrese el nombre: ")
@@ -6,7 +6,8 @@ def registrar_usuario(datos):
     usuario["Contacto"]=input("Ingrese el contacto: ")
     usuario["Correo electronico"]=input("Ingrese el correo electronico: ")
     usuario["Categoría"]=input("Ingrese la categoría: ")
-    try:
-        usuario[]
+    return datos
+
+
 
     

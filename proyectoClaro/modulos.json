@@ -31,8 +31,9 @@
     ],
     "Servicios": [
         {
-            "Prepago": "Recargas y paquetes, Sim + Paquete, App mi claro, Cobertura",
-            "Postpago"
+            "Planes": "Postpago, prepago",
+            "Hogar": "Internet fibra óptica, Clarotv+, Tripleplay",
+            "Entretenimiento": "Claro gaming"
         }
     ]
 }

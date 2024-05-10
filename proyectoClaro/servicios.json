@@ -1,0 +1,24 @@
+{
+    "Características": [
+        {
+            "Postpago": "Entretenimiento y almacenamiento en la nube, Familia y amigos + Minutos y mensajes ilimitados",
+            "Prepago": "Puedes tener recargas y paquetes, Sim + paquete, App Mi Claro, Cobertura",
+            "Internet fibra óptica": "Hasta 500 Megas bajadas, hasta 30 megas subida de internet, puntos cableados incluidos 4 wifi y cable de red, correo electronico N/A",
+            "Clarotv+": "28 canales estándar y 81 canales HD",
+            "Tripleplay": "Internet hasta 50 megas de velocidad de bajada, 62 canales HD, 101 canales estándar, 2 canales Deco en HD, 6 emisoras disponibles y acceso a streaming de Claro y Claro video, plan de llamadas ilimitadas, disponible en todo el país",
+            "Claro gaming": "Juegos ilimitados sin anuncios y sin micropagos"
+            
+
+        }
+    ],
+    "Precios": [
+        {
+            "Postpago": "$ 42.900",
+            "Prepago": "$ 2.500 en adelante",
+            "Internet fibra óptica": "$ 165.900",
+            "Clarotv+": "$ 29.000",
+            "Tripleplay": "$ 250.000",
+            "Claro gaming": "$ 2.975 semanal"
+        }
+    ]
+}
