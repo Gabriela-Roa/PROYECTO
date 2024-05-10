@@ -1,39 +1,67 @@
 {
-    "Usuarios":[
+    "usuarios":[
         {
-            "Nombre": "Gabriela",
+            "nombre": "Gabriela",
+            "documento": "1116858032",
             "Direccion": "cra 28",
-            "Contacto": 3108051399,
-            "Correo electronico": "gabygr1718@gmail.com",
-            "Categoría": "cliene nuevo"
+            "contacto": 3108051399,
+            "correo electronico": "gabygr1718@gmail.com",
+            "categoría": "cliene nuevo",
+            "servutilizado": "postpago"
         },
         {
-            "Nombre": "Antonio",
-            "Direccion": "cra 13",
-            "Contacto": 3113459876,
-            "Correo electronico": "antonio12@gmail.com",
-            "Categoría": "cliente regular"
+            "nombre": "Antonio",
+            "documento": "111456983",
+            "direccion": "cra 13",
+            "contacto": 3113459876,
+            "correo electronico": "antonio12@gmail.com",
+            "categoría": "cliente regular",
+            "servutilizado": "postpago"
         },
         {
-            "Nombre": "Juan",
-            "Direccion": "calle 10",
-            "Contacto": 3126578970,
-            "Correo electronico": "juanito03@gmail.com",
-            "Categoría": "cliente leal"
+            "nombre": "Juan",
+            "documento": "4566858987",
+            "direccion": "calle 10",
+            "contacto": 3126578970,
+            "correo electronico": "juanito03@gmail.com",
+            "categoría": "cliente leal",
+            "servutilizado": "clarotv+"
         },
         {
-            "Nombre": "Natalia",
-            "Direccion": "calle 20",
-            "Contacto": 3013567896,
-            "Correo electronico": "nataliani17@gmail.com",
-            "Categoría": "cliente leal"
+            "nombre": "Natalia",
+            "documento": "7896858032",
+            "direccion": "calle 20",
+            "contacto": 3013567896,
+            "correo electronico": "nataliani17@gmail.com",
+            "categoría": "cliente leal",
+            "servutilizado": "claro gaming"
         }
     ],
-    "Servicios": [
+    "servicios": [
         {
-            "Planes": "Postpago, prepago",
-            "Hogar": "Internet fibra óptica, Clarotv+, Tripleplay",
-            "Entretenimiento": "Claro gaming"
+            "planes": "postpago, prepago",
+            "hogar": "internet fibra óptica, Clarotv+, Tripleplay",
+            "entretenimiento": "claro gaming"
+        }
+    ],
+    "características": [
+        {
+            "postpago": "Entretenimiento y almacenamiento en la nube, Familia y amigos + Minutos y mensajes ilimitados",
+            "prepago": "Puedes tener recargas y paquetes, Sim + paquete, App Mi Claro, Cobertura",
+            "internet fibra óptica": "Hasta 500 Megas bajadas, hasta 30 megas subida de internet, puntos cableados incluidos 4 wifi y cable de red, correo electronico N/A",
+            "clarotv+": "28 canales estándar y 81 canales HD",
+            "tener": "Internet hasta 50 megas de velocidad de bajada, 62 canales HD, 101 canales estándar, 2 canales Deco en HD, 6 emisoras disponibles y acceso a streaming de Claro y Claro video, plan de llamadas ilimitadas, disponible en todo el país",
+            "claro gaming": "Juegos ilimitados sin anuncios y sin micropagos"
+        }
+    ],
+    "precios": [
+        {
+            "postpago": "$ 42.900",
+            "prepago": "$ 2.500 en adelante",
+            "internet fibra óptica": "$ 165.900",
+            "clarotv+": "$ 29.000",
+            "tripleplay": "$ 250.000",
+            "claro gaming": "$ 2.975 semanal"
         }
     ]
 }

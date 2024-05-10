@@ -1,6 +1,6 @@
 def Menú():
     print("\n-------------------------------------------------")
-    print("¡¡¡BIENVENIDOS A CLARO!!!")
+    print("¡¡¡BIENVENIDO A CLARO!!!")
     print("\nSeleccione la opción que necesita")
     print("1. Usuarios")    
     print("2. Gestión de Servicios")    
@@ -39,7 +39,8 @@ def ventas():
     print("\n-------------------------------------------------")
     print("1. Registro de productos y servicios")
     print("2. Registro de ventas")
-    print("Menú")
+    print("3. Menú")
+    print("5. salir")
     print("\n-------------------------------------------------")
 
 def pedir_opcion():
