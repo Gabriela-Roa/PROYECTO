@@ -6,6 +6,7 @@ def actualizar_perfil(datos):
     numero = int(input("Ingrese el numero: "))
     if numero == 1:
         usuario["Nombre"]=input("Ingrese el nombre: ")
+        
     elif numero == 2:
         usuario["Direccion"]=input("Ingrese la direccion: ")
     elif numero == 3:
