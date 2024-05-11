@@ -1,23 +1,19 @@
-def actualizar_perfil(datos):
-    datos = dict(datos)
-    usuario={}
-    print("¿Que dato desea actualizar?")
-    print("1.Nombre, 2.Direccion, 3.Contacto, 4.Correo electronico y 5.Categoría")
-    numero = int(input("Ingrese el numero: "))
-    if numero == 1:
-        usuario["Nombre"]=input("Ingrese el nombre: ")
-        
-    elif numero == 2:
-        usuario["Direccion"]=input("Ingrese la direccion: ")
-    elif numero == 3:
-        usuario["Contacto"]=input("Ingrese el contacto: ")
-    elif numero == 4:
-        usuario["Correo electronico"]=input("Ingrese el correo electronico: ")
-    elif numero == 5:
-        usuario["Categoría"]=input("Ingrese la categoría: ")
-    else:
-        print("Ingresa una opción valida")
-    return datos
+def actualizar_perfil(datos:dict):
+    
+    nombre =input("Ingrese el nombre del cliente: ")
+    for i in range(len(datos["usuarios"])):
+        if datos["usuarios"][i]["nombre"]== nombre:
+            usuario={}
+            usuario["nombre"]=input("Ingrese el nombre: ")
+            usuario["documento"]=input("Ingrese el numero de documento: ")
+            usuario["direccion"]=input("Ingrese la direccion: ")
+            usuario["contacto"]=input("Ingrese el contacto: ")
+            usuario["correo electronico"]=input("Ingrese el correo electronico: ")
+            usuario["categoría"]=input("Ingrese la categoría: ")
+            usuario["servutilizado"]=input("Ingrese el servicio utilizado: ")
+            
+            datos["usuarios"][i].update(usuario)
+        return datos
         
 def crear_un_nuevo_perfil(datos):
     datos = dict(datos)
@@ -50,8 +46,8 @@ def servicios_y_promociones_personalizadas(datos):
                 print("Señor(a)" + nombre + "le recomendamos los siguientes servicios: " + i )
     return datos
 
-def salir(datos):
-    datos = dict(datos)
+def salir(datos:dict):
+    
     opc = 5
     try:
          if opc == 5:

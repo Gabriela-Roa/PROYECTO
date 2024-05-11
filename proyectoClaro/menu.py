@@ -16,7 +16,7 @@ def usuarios():
     print("2. Crear un nuevo perfil")
     print("3. Eliminar Perfil")
     print("4. Servicios y promociones personalizadas")
-    print("5. Menú")
+    print("6. Menú")
     print("\n-------------------------------------------------")
    
     
@@ -28,7 +28,7 @@ def Gestion_de_servicios():
     print("2. Modificar servicio")
     print("3. Eliminar servicio")
     print("4. Lista de servicios")
-    print("5. Menú")
+    print("6. Menú")
     print("\n-------------------------------------------------")
     
 def Reportes():
@@ -37,7 +37,7 @@ def Reportes():
     print("1. Informes")
     print("2. Servicios populares") # esto puede ir en informes
     print("3. Usuarios que han adquirido los servicios") # esto puede ir en informes 
-    print("5. Menú")
+    print("6. Menú")
     print("\n-------------------------------------------------")
     
 def ventas():
@@ -45,7 +45,7 @@ def ventas():
     print("\nVentas")
     print("1. Registro de productos y servicios")
     print("2. Registro de ventas")
-    print("3. Menú")
+    print("6. Menú")
     print("5. salir")
     print("\n-------------------------------------------------")
     
