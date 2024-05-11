@@ -19,8 +19,6 @@ def usuarios():
     print("6. Menú")
     print("\n-------------------------------------------------")
    
-    
-
 def Gestion_de_servicios():
     print("\n-------------------------------------------------")
     print("\nGestion de servicios")
