@@ -43,8 +43,8 @@ def ventas():
     print("\nVentas")
     print("1. Registro de productos y servicios")
     print("2. Registro de ventas")
-    print("6. Menú")
     print("5. salir")
+    print("6. Menú")
     print("\n-------------------------------------------------")
     
 def pedir_opcion():
