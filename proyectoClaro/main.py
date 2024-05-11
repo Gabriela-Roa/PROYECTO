@@ -26,6 +26,8 @@ while True:
     elif opc == 2:
         Gestion_de_servicios()
         opc = pedir_opcion()
+        if opc== 1:
+            datos = agregar_servicios(datos)
     elif opc == 3:
         Reportes()
         opc = pedir_opcion()
